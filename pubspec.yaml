@@ -1,0 +1,24 @@
+name: flutter_ebook_app
+description: A Flutter app for eBooks
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=1.0.0 <5.0.0"
+  # sdk: ">=2.14.0 <5.0.0"
+
+dependencies:
+ auto_route: ^7.8.4
+  
+
+dependency_overrides:
+  collection: ^>=1.17.0 <=1.17.2
+
+dev_dependencies:
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
